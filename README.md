@@ -1,22 +1,14 @@
 # 🏦 Bank Loan Approval & Performance Tracking System 
 
-## 📌 Project Overview
+## Project Overview
 
 This project is an **industry‑ready database and analytics solution** designed to simulate how banks evaluate, approve, and monitor loan applications. It focuses on **data quality, business‑driven SQL analysis, and performance optimization**, closely aligning with real‑world banking and fintech use cases.
 
 The system ingests raw loan application data, performs **professional data cleaning**, enforces **business constraints**, and generates **actionable insights** to support loan approval and credit risk decisions.
 
-
 ---
 
-## 🎯 Business Problem
-
-Banks process thousands of loan applications daily. Poor data quality and lack of structured analysis can lead to:
-
-* ❌ Incorrect approval/rejection decisions
-* ❌ Higher default risk
-* ❌ Inefficient credit evaluation
-
+## Business Problem
 This project addresses these challenges by building a **clean, reliable, and insight‑driven loan analytics database** that answers real business questions such as:
 
 * Which applicants are most likely to get approved?
@@ -25,9 +17,9 @@ This project addresses these challenges by building a **clean, reliable, and ins
 
 ---
 
-## 🗂 Dataset Description
+## Dataset Description
 
-**Source:** Kaggle – Loan Prediction Dataset
+Source: Kaggle – Loan Prediction Dataset
 🔗 [https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
 
 The dataset represents **bank loan applications**, containing applicant demographics, income details, credit history, loan attributes, and approval status.
@@ -43,11 +35,11 @@ The dataset represents **bank loan applications**, containing applicant demograp
 * `property_area` – Urban / Semiurban / Rural
 * `loan_status` – Approved (Y) or Rejected (N)
 
-📌 *The dataset intentionally contains missing values and inconsistencies to reflect real‑world banking data.*
+ *The dataset intentionally contains missing values and inconsistencies to reflect real‑world banking data.*
 
 ---
 
-## 🏗 Database Architecture
+## Database Architecture
 
 ### Core Table
 
@@ -67,7 +59,7 @@ The dataset represents **bank loan applications**, containing applicant demograp
 
 ---
 
-## 🧹 Data Cleaning & Preparation Strategy
+##  Data Cleaning & Preparation Strategy
 
 Professional data preparation techniques were applied, similar to production systems:
 
@@ -93,7 +85,7 @@ Professional data preparation techniques were applied, similar to production sys
 
 ---
 
-## 🔍 SQL Concepts Demonstrated 
+## SQL Concepts Demonstrated 
 
 This project intentionally covers **SQL skills commonly tested in interviews**:
 
@@ -109,7 +101,7 @@ This project intentionally covers **SQL skills commonly tested in interviews**:
 
 ---
 
-## 📊 Business Insights Generated
+## Business Insights Generated
 
 The analysis answers **real banking decision‑making questions**, including:
 
@@ -120,20 +112,11 @@ The analysis answers **real banking decision‑making questions**, including:
 * Ideal loan amount and term ranges
 * Identification of high‑risk applicant profiles
 
-📈 Insights are written from a **business analyst’s perspective**, not just SQL outputs.
+Insights are written from a **business analyst’s perspective**, not just SQL outputs.
 
 ---
 
-## 🚀 Why This Project Stands Out
-
-✔ Uses **messy, real‑world data** instead of clean sample datasets
-✔ Treats SQL as a **decision‑making tool**, not just a query language
-✔ Combines **data engineering + analytics + business thinking**
-✔ Directly aligned with **banking, fintech, and analytics roles**
-
----
-
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Database:** PostgreSQL
 * **Language:** SQL
@@ -142,7 +125,7 @@ The analysis answers **real banking decision‑making questions**, including:
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 * Predictive modeling using **SQL + Python**
 * Role‑based access control for production simulation
